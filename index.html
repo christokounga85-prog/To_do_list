@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma To-do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <center>
+    <div class="layout">
+
+        <header>
+            <h1>Ma To-do List</h1>
+            <p>Mes programmes de la semaine</p>
+        </header>
+
+        <main>
+
+            <section class="jour">
+                <h3>Mardi</h3>
+                <div class="programme">
+                    <p>Programme : Réseaux et configurations</p>
+                 <input type="checkbox" class="case-jour">
+                </div>
+                 <h3>Jeudi</h3>
+                <div class="programme">
+                    <p>Programme : Python</p>
+                 <input type="checkbox" class="case-jour">
+                </div>
+                 <h3>Samedi</h3>
+                <div class="programme">
+                    <p>Programme : C++ et base de donnée</p>
+               <input type="checkbox" class="case-jour">
+                </div>
+                 <h3>Dimanche</h3>
+                <div class="programme">
+                    <p>Programme : Programmation web</p>
+               <input type="checkbox" class="case-jour">
+                </div>
+                
+            </section>
+
+            <!-- Reproduis cette structure pour Jeudi, Samedi et Dimanche -->
+
+            <section class="progression">
+                <h2>Progression hebdomadaire</h2>
+              <p id="pourcentage">0 %</p>
+              <progress id="barre-progression" value="0" max="100"></progress>
+            </section>
+
+     <button id="renouveler">Renouveler la semaine</button>
+
+        </main>
+
+    </div>
+   </center>
+   <script src="script.js"></script>
+</body>
+</html>

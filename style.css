@@ -1,0 +1,98 @@
+
+/* Style général de la page */
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #0b172a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Conteneur principal */
+.layout {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #61b8ff;
+    font-size: 36px;
+}
+
+header p {
+    color: #a9bfdc;
+}
+
+/* Les cartes des jours */
+.jour {
+    background-color: #112440;
+    border: 1px solid #24466b;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* Le titre de chaque jour */
+.jour h3 {
+    margin-top: 0;
+    color: #78bdff;
+}
+
+/* Programme à gauche, case à droite */
+.programme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Case à cocher */
+.programme input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #20c997;
+}
+
+/* Barre de progression */
+.progression {
+    background-color: #112440;
+    border: 1px solid #24466b;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.progression h2 {
+    color: #61b8ff;
+}
+
+progress {
+    width: 100%;
+    height: 18px;
+    accent-color: #20c997;
+}
+
+/* Bouton de renouvellement */
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #12aa91;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d8f79;
+}
